@@ -1,0 +1,26 @@
+
+public class ExecutaMatriz {
+
+	public static void main(String[] args) {
+		// Criando uma varavel do tipo matriz
+		String[] carros= {"HB20","UNO","GOL","SANDEIRO","C3","opala","tempra"};
+	
+		
+		//Mostrando o conteudo da variavel do tipo matriz
+		/*System.out.println(carros[0]);
+		System.out.println(carros[1]);
+		System.out.println(carros[2]);
+		System.out.println(carros[3]);
+		System.out.println(carros[4]);*/
+		
+		System.out.println(carros.length);
+	
+         int contagem=0; 
+		//criando um laco de repetição para mostrar os registros
+		
+		for(int contador=0;contador<carros.length;contador++) {
+			contagem=contagem+contador;
+			contagem++;
+			System.out.println(contador+" - "+carros[contador]);
+			
+			
